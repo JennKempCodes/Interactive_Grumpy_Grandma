@@ -16,4 +16,3 @@ if reply.downcase == 'yes'
 else
   puts 'Grandma: "I\'m sorry dear, I don\'t think I heard you."'
 end
-
