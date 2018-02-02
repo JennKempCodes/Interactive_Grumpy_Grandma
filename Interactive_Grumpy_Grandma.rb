@@ -2,7 +2,6 @@
 
 puts 'What would you like to ask Grumpy Grandma?'
 question = gets.chomp
-#works!
 
 if question == question.upcase
   puts 'Grandma:' + question.capitalize + '?'
@@ -18,12 +17,3 @@ else
   puts 'Grandma: "I\'m sorry dear, I don\'t think I heard you."'
 end
 
-
-
-# if question != question.upcase
-#   puts 'Grandma: "WHAT?! SPEAK UP SONNY, I CAN\'T HEAR YOU!"'
-# end
-
-# if question == question.upcase
-#   puts 'Grandma:' + question.capitalize + '?'
-# end
